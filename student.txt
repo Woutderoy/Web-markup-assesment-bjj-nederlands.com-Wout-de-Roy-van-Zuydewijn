@@ -1,0 +1,4 @@
+student name: Wout de Roy van Zuydewijn
+student number: 648184
+student class: INF1D
+URL student GitHub repository: https://github.com/Woutderoy/Web-markup-assesment-bjj-nederlands.com-Wout-de-Roy-van-Zuydewijn

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="nederland, toerisme, sporten, haarlem, Brazilian Jiu Jitsu, Taekwondo, HWA-Rang Dragon">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+
+    <title>Contact pagina</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img class="logo" src="img/logo.png" alt="logo">
+      </h1>
+      <h2>
+        Hollands beste
+      </h2>
+
+    </header>
+    <nav>
+      <ul>
+        <li id="home"><a href="index.html">Home</a></li>
+        <li id="nederland"><a href="main.html">Nederland</a></li>
+        <li id="toerisme"><a href="Toerisme.html">Toerisme</a></li>
+        <li id="sport"><a href="sport.html">Sport</a></li>
+        <li id="referentie"><a href="Referentie.html">Referral</a></li>
+        <li id="contact"><a class="active" href="Contact.html">Contact</a></li>
+      </ul>
+      <section class="container">
+        <form id="form" action="http://witan.nl/inholland/testform.php" method="POST">
+          <p>
+          <label for="name">Volledige Naam</label>
+          </p>
+          <p>
+          <input type="text" id="naam" name="name" value="">
+          </p>
+          <p>
+          <label for="email">E-Mail</label>
+          </p>
+          <input type="text" id="email" name="email" value="">
+          </p>
+          <p>
+          <label for="message">Uw Bericht</label>
+          </p>
+
+          <textarea rows="7" cols="50" name="message" id="bericht" form="form"></textarea>
+
+          <p>
+          <input type="submit" name="verzend" value="Verzenden">
+          </p>
+        </form>
+      </section>
+      <footer id="footercontact" class="footer">
+        <img class="vlag" src="img/logo.png" alt="nederlandse vlag">
+        &copy; Wout de Roy van Zuydewijn
+      </footer>
+    </nav>
+  </body>
+</html>

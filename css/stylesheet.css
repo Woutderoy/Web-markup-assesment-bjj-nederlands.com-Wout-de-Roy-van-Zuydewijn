@@ -1,0 +1,304 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #707070;
+}
+
+body{
+  font-family: Arial;
+  background-image: linear-gradient(to top right, #FFFFFF, #AAAAAA);
+}
+
+h1, h2{
+  margin: 0;
+  background-color: #444444;
+  text-align: center;
+  font-family: Arial;
+  font-size: 25pt;
+  color: #000000;
+}
+
+h2{
+  font-size: 15pt;
+}
+
+nav{
+  grid-area: navTag;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  top: inherit;
+  margin: 0px;
+}
+
+.header{
+  grid-area: headerTag;
+  font-size: 20pt;
+  margin: 10px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+
+.article{
+  grid-area: articleTag;
+  font-size: 12pt;
+}
+
+#indexarticle{
+  padding-bottom: 190px;
+}
+
+#sportarticle, #sportheader{
+
+
+}
+
+#filmpje{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.aside{
+  grid-area: asideTag;
+}
+
+.aside2{
+  grid-area: asideTag2;
+  text-align: right;
+}
+
+.footer{
+  grid-area: footerTag;
+  font-size: 10pt;
+  margin-top: 20px;
+  background-color: #444444;
+  padding: 5px;
+}
+
+.vlag{
+  width: 60px;
+  height: 40px;
+}
+
+.logo{
+  width: 100px;
+  height: 50;
+}
+
+#molen{
+  height: 300px;
+}
+
+#molen, #klomp{
+  overflow: hidden;
+  display: block;
+}
+
+#klomp{
+  float: right;
+}
+
+#tulpen{
+  height: 200px;
+  width: 1000px;
+}
+
+#tulp{
+  width: 100px;
+  height: 100px;
+}
+
+#stroopwafel{
+  width: 300px;
+  height: 400px;
+}
+
+.sportfotos{
+  width: 200px;
+  height: 200px;
+  margin-right: 5px;
+  float: left;
+}
+
+.fotosport{
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  float:left;
+}
+#sportarticle{
+  text-align: left;
+  overflow: hidden;
+}
+
+section.row{
+  clear: both;
+  overflow: hidden;
+}
+
+.textsport{
+  font-weight: bold;
+}
+
+#foto1, .sport1 {
+  grid-area: foto1;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+#foto1, #bijtekst1{
+  vertical-align: middle;
+}
+
+
+#foto2, #sport2{
+  grid-area: foto2;
+  vertical-align: top;
+}
+
+#sport1, #bijtekst1{
+  display: block;
+}
+
+#footersport{
+  position: sticky;
+}
+
+#grid-container-referral{
+  display: flex;
+  justify-content: space-space-between;
+
+}
+
+#refaside{
+  width: 50%;
+  margin-left: 20px;
+}
+
+#refarticle{
+  width:50%;
+}
+
+#HWA{
+  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-left: 350px;
+}
+
+input[type=text], select, textarea{
+ width: 20%;
+ padding: 12px;
+ border: none;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #707070;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#footercontact{
+  margin-top: 0px;
+}
+
+#bericht{
+  text-align: left;
+}
+
+input[type=submit]:hover {
+  background-color: #2699FB;
+}
+
+
+
+.container {
+  background-image: linear-gradient(to top right, #FFFFFF, #AAAAAA);
+  padding: 20px;
+}
+
+#bjj2{
+  width: 300px;
+  height: 300px;
+}
+
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+li a:hover{
+  background-color: #2699FB;
+}
+
+.active{
+  background-color: #2699FB;
+}
+
+#grid-container-index{
+  display: grid;
+  grid-template-areas: '. asideTag asideTag .'
+                        '. headerTag headerTag .'
+                        'articleTag articleTag articleTag articleTag';
+  grid-gap: 10px;
+}
+
+#grid-container-main{
+  display: grid;
+  grid-template-areas: 'headerTag . . .'
+                        'articleTag articleTag articleTag asideTag';
+  grid-gap: 10px;
+}
+
+#grid-container-toerisme{
+  display: grid;
+  grid-template-areas: '. headerTag headerTag .'
+                       'asideTag articleTag articleTag articleTag'
+                       'asideTag articleTag articleTag articleTag';
+  grid-gap: 10px;
+}
+
+/*#grid-container-sport{
+  display: grid;
+  grid-template-areas: 'headerTag headerTag headerTag headerTag'
+                       ' foto1 text1 text1 text1'
+                       ' foto2 text2 text2 text2'
+                       ' foto3 text3 text3 text3'
+                       ' foto4 text4 text4 text4'
+                       ' foto5 text5 text5 text5'
+                       ' foto6 text6 text6 text6'
+                       ' foto7 text7 text7 text7'
+                       ' foto8 text8 text8 text8'
+                       ' foto9 text9 text9 text9'
+                       ' foto10 text10 text10 text10'
+                       ;
+  grid-gap: 10px;
+}*/
+
+/*#grid-container-referral{
+  display: grid;
+  grid-template-areas: 'headerTag headerTag headerTag headerTag'
+                       'articleTag articleTag asideTag asideTag'
+                       'articleTag articleTag asideTag asideTag';
+}*/
